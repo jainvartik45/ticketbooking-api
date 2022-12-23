@@ -1,0 +1,19 @@
+GET http://localhost:3000/seats
+
+
+
+###
+
+
+POST http://localhost:3000/seats
+Content-Type: application/json
+
+{
+    "seat_number" : "153",
+    "row" : "2",
+    "column" : "53"
+}
+
+###
+
+DELETE http://localhost:3000/seats/63a5f34bf915de23bc17acb5
